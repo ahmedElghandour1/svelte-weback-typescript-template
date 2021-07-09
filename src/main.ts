@@ -1,7 +1,8 @@
 import App from "./App.svelte";
-import "./scss/style.scss";
-const app = new App({
-  target: document.body,
-});
+// import "./scss/style.scss";
+// const app = new App({
+//   target: document.body,
+// });
 
-export default app;
+customElements.define('p-o-c', App as any)
+  // export default App;
